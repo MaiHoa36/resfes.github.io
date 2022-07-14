@@ -15,10 +15,10 @@
         <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" />
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
-        
+
         <link href="//db.onlinewebfonts.com/c/4fa98e8723666b5caedf8738d1cf4870?family=iCiel+Brush+Up" rel="stylesheet" type="text/css"/>
 
-     
+
         <style >
             .portfolio-item img{
                 object-fit: cover;width: 300px; height: 300px; border: 2px black solid; 
@@ -26,6 +26,25 @@
             .title {
                 font-family: "iCiel Brush Up";
                 font-size: 40px;
+                color: white;
+                font-weight: 200;
+            }
+            .para-content{
+                padding-top: 3%;
+                font-size: 20px;
+                width: 70%; 
+                /*margin: 2% 20% 0%;*/
+                text-align: center;
+                margin: 0 auto;
+                text-justify: auto;
+            }
+            .detail {
+                border-radius: 20px; 
+                background-color:#f6abb6;
+                padding: 50px;
+                border: 2px solid black;
+                text-align: center;
+
             }
 
         </style>
@@ -52,7 +71,7 @@
             </div>
         </nav>
 
-        
+
         <section class="page-section bg-light" id="portfolio">
             <div class="container">
                 <div class="text-center" style="margin-top:50px; ">
@@ -64,12 +83,19 @@
                         color: white;
                         width: 350px; 
                         margin: auto; 
-                        font-weight: 200;
-                        
+
+
                         ">
                         Phòng trưng bày hình dáng âm hộ</h4>
-                    <p class="section-subheading text-muted" style="margin-top: 20px; width: 500px; margin-left: 30%;"> Sự đa dạng về hình dáng, màu sắc, kích thước 
-                    chính là những điều đẹp đẽ và kỳ diệu nhất khi nói về âm hộ. Hãy tự tin tỏa sáng bản sắc riêng của chính bạn.
+                    <p style="padding-top: 3%;
+                       font-size: 20px;
+                       width: 50%; 
+                       /*margin: 2% 20% 0%;*/
+                       text-align: center;
+                       margin: 0 auto;
+                       text-justify: auto;
+                       "> Sự đa dạng về hình dáng, màu sắc, kích thước 
+                        chính là những điều đẹp đẽ và kỳ diệu nhất khi nói về âm hộ. Hãy tự tin tỏa sáng bản sắc riêng của chính bạn.
                     </p>
                 </div>
                 <div class="row" style="padding: 20px 100px; ">
@@ -255,21 +281,13 @@
                 <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
                 <div class="container">
                     <div class="row" style="margin-top: 50px; padding-top: 100px;" >
-                        <!--<div class="modal-body">-->
-                        <!-- Project details-->
-                        <!--                        <h2 class="text-uppercase">Project Name</h2>
-                                                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>-->
-                        <div class="col-md-6">
-                            <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/1.jpg" alt="..." />
-                        </div>
-                        <div class="col-md-6">
-                            <h2 class="text-uppercase">Môi dễ thấy</h2>
-                            <p>Thông thường .... </p>
 
-                            <!--                            <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
-                                                            <i class="fas fa-times me-1"></i>
-                                                            Close Project
-                                                        </button>-->
+                        <div class="col-md-6"  >
+                            <img style="border-radius: 20px; border: 2px solid black;" class="img-fluid d-block mx-auto" src="assets/img/portfolio/moibevamo.png" alt="..." />
+                        </div>
+                        <div class="col-md-6 detail" >
+                            <h2 class="text-uppercase title" style="margin-bottom: 10%;">Môi bé và mở</h2>
+                            <p class="para-content" style=""> Môi ngoài của bạn phẳng và áp lên xương mu, nhưng hơi tách ra về hai bên, làm lộ rõ môi âm hộ bên trong của bạn.</p>
                         </div>
 
 
@@ -282,7 +300,7 @@
         <!-- Portfolio item 2 modal popup-->
         <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
             <div class="modal-dialog">
-                <div class="modal-content">
+                <div class="modal-content" style="background-color: #f6abb6">
                     <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
                     <div class="container">
                         <div class="row justify-content-center">
